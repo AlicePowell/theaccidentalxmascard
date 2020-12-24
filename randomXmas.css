@@ -1,0 +1,273 @@
+#overallContainer {
+    position: relative;
+    width: 100vmin;
+    height: 100vmin;
+    margin: auto;
+    z-index: -4;
+}
+
+
+#frame { 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0%;
+    left: 0%; 
+    z-index: -1;
+}
+
+
+
+#flake1 { 
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 0;
+    z-index: -2;
+    opacity: 0.4;  
+}
+
+#frame1, #frame2, #frame3, #frame4 {
+    position: absolute;  
+    max-width: 100%;
+    height: auto;
+    bottom: 0%;
+    left: 0%; 
+    z-index: -1;
+    opacity: 0;
+}
+
+
+.xmasTree {
+    position: absolute;
+    display: inline;
+    height: 60vmin;
+    width: 40vmin;  
+    bottom: 0%;
+    right: 0%; 
+}
+
+.plant-frame-r {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    bottom: 0%;
+    right: 0%;   
+}
+
+.positionAngel {
+    position: absolute;   
+    height: 30vmin;
+    width: 20vmin;
+    top: 12vmin;
+    right: 0.1vmin;   }
+
+.positionSquid {
+    position: absolute;
+    height: 45vmin;
+    width: 30vmin;
+    top: 12vmin;
+    left: 78vmin;   }
+
+#treetopAngel{
+    width: 100%;
+    height: auto;   
+    margin: auto;
+    right: 0%; }
+
+#treetopSquid {
+        width: 100%;
+        height: auto;   
+        margin-top: 0%;
+        right: 0%;   
+    }
+
+.positionMouse {
+        position: absolute;   
+        height: 34vmin;
+        width: 24vmin;
+        bottom: 64vmin;
+        right: 77vmin;
+    }
+   
+#dormouse{
+        position: absolute;        
+        height: auto;  
+        width: 100%; 
+        margin: auto;
+        left: 0%;
+        transform: rotate(33deg) 
+    }  
+
+    #dormouse img {
+        height: 100%;
+        width: 100%;
+    }
+
+.foregroundDonkey {
+    position: absolute;
+    height: 45vmin;
+    width: 30vmin;  
+    bottom: 0%;
+    left: 0%;  
+    }
+         
+#twoDonkeys {
+    position: absolute;
+    height: 100%;
+    width: auto;   
+    left: 0%;
+    margin: auto; }
+
+#littleDonkey, #littleSheep { 
+    position: absolute;  
+    height: 50vmin;
+    width: 30vmin;  
+    right: 0;
+    bottom: 0;   
+}
+
+#lisadonkey, #lisasheep {
+    position: absolute;
+    width: 12vmin;
+    height: 12vmin;
+}
+
+
+#molecule1 {
+    display: block;
+    position: relative;
+}
+
+#molecule1 {
+    background-image: url("./molecule1.png");
+    width: 20vmin;
+    height: 10vmin;
+} 
+
+#molecule2 {
+    background-image: url("./molecule2.png");
+    width: 38vmin;
+    height: 20vmin;
+}
+
+#molecule3 {
+    background-image: url("./molecule3.png");
+    width: 25vmin;
+    height: 15vmin;
+}
+
+#molecule4 {
+    background-image: url("./molecule4.png");
+    width: 30vmin;
+    height: 15vmin;
+}
+
+#molecule1, #molecule2, #molecule3, #molecule4{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    z-index: -2;
+}
+
+
+
+.positionSqu {
+    position: absolute;   
+    height: 30vmin;
+    width: 30vmin;
+    top: 16vmin;
+    right: 0.5vmin;   
+}
+
+.positionRob {
+    position: absolute;  
+    height: 23vmin;
+    width: 23vmin;
+    bottom: 39vmin;
+    left: 61vmin;  
+    z-index: -1; 
+}
+
+#squid, #robin {
+    width: 100%;
+    height: auto;   
+    margin: auto; 
+}
+
+#robin {
+    
+}
+
+
+
+/*#yucca {
+    width: auto;
+    height: 100%;
+    margin: auto; 
+    z-index: -2;
+}*/
+
+
+#star{
+    display: block;
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: rgb(243, 230, 202);
+    border-radius: 40%;
+    z-index: -3;
+}
+
+.canvasStars{
+    position: absolute;
+    height: 100%;
+    width: 100%; 
+    top: 0%;
+    left: 0%;
+    z-index: -3;
+}
+
+#canvas {
+    position: absolute;
+    width: 100vmin;
+    height: 50vmin;
+    top: 0%;
+    
+}
+
+.eastStar{
+    position: absolute;
+    height: 35vmin;
+    width: 35vmin;
+    top: 12vmin;
+    right: 4vmin; 
+    left: auto;
+    z-index: -3;
+}
+
+.east {
+    width: auto;
+    max-height: 30%;
+}
+
+.containsquirrel {
+    position: absolute;  
+    
+}
+
+#squirrel {
+    position: absolute;
+    height: 20vmin;
+    width: 20vmin;  
+    right: 28vmin;
+    bottom: 4vmin;
+    background-image: url("./squirrel.png");
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    z-index: -1;
+}
+
